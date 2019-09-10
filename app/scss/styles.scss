@@ -25,6 +25,17 @@ $cursive-stack: 'Shadows Into Light Two', cursive;
 
 .slider-container {
   max-width: 540px;
+  font-family: $font-stack;
+  & .slider-caption {
+    color: #363f41;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: .5px;
+  }
+  & .slider-credit {
+    font-weight: 400;
+    margin-left: 5px;
+  }
 }
 
 .tns-controls {
